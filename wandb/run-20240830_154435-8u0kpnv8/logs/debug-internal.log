@@ -1,0 +1,371 @@
+2024-08-30 15:44:35,636 INFO    StreamThr :29752 [internal.py:wandb_internal():85] W&B internal server running at pid: 29752, started at: 2024-08-30 15:44:35.634958
+2024-08-30 15:44:35,651 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status
+2024-08-30 15:44:35,653 INFO    WriterThread:29752 [datastore.py:open_for_write():87] open: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/run-8u0kpnv8.wandb
+2024-08-30 15:44:35,654 DEBUG   SenderThread:29752 [sender.py:send():391] send: header
+2024-08-30 15:44:35,658 DEBUG   SenderThread:29752 [sender.py:send():391] send: run
+2024-08-30 15:44:36,134 INFO    SenderThread:29752 [dir_watcher.py:__init__():211] watching files in: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files
+2024-08-30 15:44:36,134 INFO    SenderThread:29752 [sender.py:_start_run_threads():1200] run started: 8u0kpnv8 with start time 1725000275.634358
+2024-08-30 15:44:36,147 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: run_start
+2024-08-30 15:44:36,170 DEBUG   HandlerThread:29752 [system_info.py:__init__():26] System info init
+2024-08-30 15:44:36,170 DEBUG   HandlerThread:29752 [system_info.py:__init__():41] System info init done
+2024-08-30 15:44:36,170 INFO    HandlerThread:29752 [system_monitor.py:start():194] Starting system monitor
+2024-08-30 15:44:36,171 INFO    SystemMonitor:29752 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-30 15:44:36,172 INFO    SystemMonitor:29752 [interfaces.py:start():188] Started cpu monitoring
+2024-08-30 15:44:36,172 INFO    HandlerThread:29752 [system_monitor.py:probe():214] Collecting system info
+2024-08-30 15:44:36,172 INFO    SystemMonitor:29752 [interfaces.py:start():188] Started disk monitoring
+2024-08-30 15:44:36,173 INFO    SystemMonitor:29752 [interfaces.py:start():188] Started gpu monitoring
+2024-08-30 15:44:36,174 INFO    SystemMonitor:29752 [interfaces.py:start():188] Started memory monitoring
+2024-08-30 15:44:36,176 INFO    SystemMonitor:29752 [interfaces.py:start():188] Started network monitoring
+2024-08-30 15:44:36,187 DEBUG   HandlerThread:29752 [system_info.py:probe():152] Probing system
+2024-08-30 15:44:36,223 DEBUG   HandlerThread:29752 [system_info.py:_probe_git():137] Probing git
+2024-08-30 15:44:36,228 DEBUG   HandlerThread:29752 [system_info.py:_probe_git():145] Probing git done
+2024-08-30 15:44:36,229 DEBUG   HandlerThread:29752 [system_info.py:probe():200] Probing system done
+2024-08-30 15:44:36,229 DEBUG   HandlerThread:29752 [system_monitor.py:probe():223] {'os': 'Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.12.4', 'heartbeatAt': '2024-08-30T06:44:36.187780', 'startedAt': '2024-08-30T06:44:35.626222', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/gnorm25/module01.git', 'commit': '2a272da844c5785b65b40b8717f88e492cec5b1e'}, 'email': 'gnorm42@gmail.com', 'root': '/home/sdf1ai810/gnorm42_ai/module01', 'host': 'DESKTOP-PG8I8O', 'username': 'sdf1ai810', 'executable': '/home/sdf1ai810/miniconda3/envs/module01/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2591.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}, {'current': 2591.998, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 250.98248672485352, 'used': 71.52538299560547}}, 'gpu': 'NVIDIA GeForce GTX 1650 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650 Ti', 'memory_total': 4294967296}], 'memory': {'total': 12.298511505126953}}
+2024-08-30 15:44:36,229 INFO    HandlerThread:29752 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-30 15:44:36,229 INFO    HandlerThread:29752 [system_monitor.py:probe():227] Publishing system info
+2024-08-30 15:44:36,229 DEBUG   HandlerThread:29752 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-08-30 15:44:37,135 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/conda-environment.yaml
+2024-08-30 15:44:39,054 DEBUG   HandlerThread:29752 [system_info.py:_save_conda():224] Saving conda packages done
+2024-08-30 15:44:39,055 INFO    HandlerThread:29752 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-30 15:44:39,057 DEBUG   SenderThread:29752 [sender.py:send():391] send: files
+2024-08-30 15:44:39,057 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-08-30 15:44:39,135 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/conda-environment.yaml
+2024-08-30 15:44:39,135 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-metadata.json
+2024-08-30 15:44:39,162 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-30 15:44:39,162 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: python_packages
+2024-08-30 15:44:39,164 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:44:39,165 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:44:39,169 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:44:39,522 DEBUG   SenderThread:29752 [sender.py:send():391] send: telemetry
+2024-08-30 15:44:39,811 INFO    wandb-upload_0:29752 [upload_job.py:push():130] Uploaded file /tmp/tmptjdzitqwwandb/xu82ca34-wandb-metadata.json
+2024-08-30 15:44:40,136 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:44:40,136 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/requirements.txt
+2024-08-30 15:44:40,778 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:44:42,136 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:44:44,137 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:44:45,872 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:44:46,138 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:44:48,139 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:44:49,165 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:44:50,140 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:44:51,038 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:44:52,140 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:44:54,141 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:44:54,163 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:44:54,164 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:44:56,142 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:44:56,212 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:44:58,143 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:44:59,166 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:45:00,144 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:01,401 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:01,850 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-30 15:45:01,852 DEBUG   SenderThread:29752 [sender.py:send():391] send: history
+2024-08-30 15:45:01,852 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: summary_record
+2024-08-30 15:45:01,853 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:45:02,145 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:02,145 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:45:04,146 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:07,123 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:07,123 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-30 15:45:07,335 DEBUG   SenderThread:29752 [sender.py:send():391] send: history
+2024-08-30 15:45:07,335 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: summary_record
+2024-08-30 15:45:07,336 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:45:08,148 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:08,148 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:45:08,149 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/config.yaml
+2024-08-30 15:45:09,164 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:45:09,165 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:45:09,167 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:45:10,149 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:12,150 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:12,390 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:14,151 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:16,152 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:17,392 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:18,153 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:19,165 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:45:20,155 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:22,156 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:22,444 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:24,157 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:24,164 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:45:24,164 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:45:26,158 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:27,652 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:28,159 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:29,165 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:45:30,161 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:32,162 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:33,503 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:34,163 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:34,663 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-30 15:45:34,665 DEBUG   SenderThread:29752 [sender.py:send():391] send: history
+2024-08-30 15:45:34,665 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: summary_record
+2024-08-30 15:45:34,666 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:45:35,164 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:45:36,165 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:36,176 DEBUG   SystemMonitor:29752 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-30 15:45:36,178 DEBUG   SenderThread:29752 [sender.py:send():391] send: stats
+2024-08-30 15:45:39,180 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:45:39,181 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:39,182 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:45:39,185 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:45:45,177 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:48,066 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-30 15:45:48,068 DEBUG   SenderThread:29752 [sender.py:send():391] send: history
+2024-08-30 15:45:48,068 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: summary_record
+2024-08-30 15:45:48,069 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:45:48,171 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:45:49,179 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:45:50,172 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:50,249 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:52,173 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:54,170 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:45:54,171 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:45:54,174 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:55,287 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:45:56,175 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:58,176 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:45:59,175 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:46:00,178 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:00,422 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:02,180 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:04,181 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:06,180 DEBUG   SenderThread:29752 [sender.py:send():391] send: stats
+2024-08-30 15:46:06,182 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:06,184 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:08,185 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:09,170 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:46:09,171 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:46:09,176 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:46:10,186 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:11,185 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:12,187 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:14,188 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:16,189 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:16,222 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:16,526 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-30 15:46:16,527 DEBUG   SenderThread:29752 [sender.py:send():391] send: history
+2024-08-30 15:46:16,527 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: summary_record
+2024-08-30 15:46:16,528 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:46:17,189 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:46:18,190 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:19,176 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:46:21,516 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:21,566 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-30 15:46:21,567 DEBUG   SenderThread:29752 [sender.py:send():391] send: history
+2024-08-30 15:46:21,567 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: summary_record
+2024-08-30 15:46:21,568 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:46:22,192 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:46:24,171 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:46:24,172 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:46:24,195 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:26,196 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:26,572 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:28,197 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:29,176 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:46:30,199 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:31,775 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:32,200 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:34,201 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:36,182 DEBUG   SenderThread:29752 [sender.py:send():391] send: stats
+2024-08-30 15:46:36,202 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:36,828 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:38,203 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:39,171 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:46:39,172 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:46:39,176 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:46:40,204 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:42,206 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:42,210 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:44,207 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:46,208 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:47,347 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:48,163 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-30 15:46:48,164 DEBUG   SenderThread:29752 [sender.py:send():391] send: history
+2024-08-30 15:46:48,164 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: summary_record
+2024-08-30 15:46:48,165 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:46:48,208 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:48,208 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:46:49,177 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:46:50,209 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:53,184 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:54,171 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:46:54,172 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:46:54,384 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-30 15:46:54,485 DEBUG   SenderThread:29752 [sender.py:send():391] send: history
+2024-08-30 15:46:54,486 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: summary_record
+2024-08-30 15:46:54,488 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:46:55,212 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:46:56,213 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:58,213 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:46:58,276 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:46:59,176 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:47:00,214 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:02,215 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:03,331 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:47:04,216 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:06,184 DEBUG   SenderThread:29752 [sender.py:send():391] send: stats
+2024-08-30 15:47:06,217 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:08,219 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:08,449 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:47:09,171 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:47:09,172 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:47:09,176 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:47:10,220 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:12,221 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:13,573 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:47:14,222 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:16,223 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:18,224 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:18,682 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:47:18,689 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: pause
+2024-08-30 15:47:18,689 INFO    HandlerThread:29752 [handler.py:handle_request_pause():728] stopping system metrics thread
+2024-08-30 15:47:18,689 INFO    HandlerThread:29752 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-30 15:47:18,690 DEBUG   SystemMonitor:29752 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-30 15:47:18,690 DEBUG   SystemMonitor:29752 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-30 15:47:18,692 INFO    HandlerThread:29752 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-30 15:47:18,693 INFO    HandlerThread:29752 [interfaces.py:finish():200] Joined disk monitor
+2024-08-30 15:47:18,718 INFO    HandlerThread:29752 [interfaces.py:finish():200] Joined gpu monitor
+2024-08-30 15:47:18,719 INFO    HandlerThread:29752 [interfaces.py:finish():200] Joined memory monitor
+2024-08-30 15:47:18,719 INFO    HandlerThread:29752 [interfaces.py:finish():200] Joined network monitor
+2024-08-30 15:47:18,720 DEBUG   SenderThread:29752 [sender.py:send():391] send: stats
+2024-08-30 15:47:19,177 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:47:20,226 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:21,691 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-30 15:47:21,693 DEBUG   SenderThread:29752 [sender.py:send():391] send: history
+2024-08-30 15:47:21,694 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: summary_record
+2024-08-30 15:47:21,694 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:47:22,226 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:22,227 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:47:23,696 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:47:24,173 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-30 15:47:24,173 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: stop_status
+2024-08-30 15:47:24,227 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:27,262 DEBUG   SenderThread:29752 [sender.py:send():391] send: telemetry
+2024-08-30 15:47:27,264 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: check_version
+2024-08-30 15:47:27,265 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: check_version
+2024-08-30 15:47:27,348 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: server_info
+2024-08-30 15:47:27,349 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: server_info
+2024-08-30 15:47:27,554 DEBUG   SenderThread:29752 [sender.py:send():391] send: exit
+2024-08-30 15:47:27,555 INFO    SenderThread:29752 [sender.py:send_exit():598] handling exit code: 1
+2024-08-30 15:47:27,555 INFO    SenderThread:29752 [sender.py:send_exit():600] handling runtime: 162
+2024-08-30 15:47:27,555 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:47:27,556 INFO    SenderThread:29752 [sender.py:send_exit():606] send defer
+2024-08-30 15:47:27,556 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:27,556 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-30 15:47:27,557 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:27,557 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-08-30 15:47:27,557 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 1
+2024-08-30 15:47:27,557 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:27,557 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-30 15:47:27,557 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:27,558 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-08-30 15:47:27,558 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 2
+2024-08-30 15:47:27,558 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:27,558 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-30 15:47:27,558 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:27,559 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-08-30 15:47:27,559 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 3
+2024-08-30 15:47:27,559 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:27,559 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-30 15:47:27,559 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:27,559 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-08-30 15:47:27,559 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 4
+2024-08-30 15:47:27,560 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:27,560 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-30 15:47:27,560 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:27,560 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-08-30 15:47:27,560 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 5
+2024-08-30 15:47:27,560 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:27,560 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-30 15:47:27,561 DEBUG   SenderThread:29752 [sender.py:send():391] send: summary
+2024-08-30 15:47:27,561 INFO    SenderThread:29752 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-30 15:47:27,562 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:27,562 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-08-30 15:47:27,562 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 6
+2024-08-30 15:47:27,562 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:27,562 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-30 15:47:27,562 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:27,562 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-08-30 15:47:27,569 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: status_report
+2024-08-30 15:47:27,796 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 7
+2024-08-30 15:47:27,796 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:27,796 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-30 15:47:27,796 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:27,796 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-08-30 15:47:28,229 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:47:28,230 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/config.yaml
+2024-08-30 15:47:28,555 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-30 15:47:29,919 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 8
+2024-08-30 15:47:29,919 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: poll_exit
+2024-08-30 15:47:29,919 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:29,920 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-30 15:47:29,921 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:29,921 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-08-30 15:47:29,921 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 9
+2024-08-30 15:47:29,921 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:29,921 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-30 15:47:29,921 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:29,921 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-08-30 15:47:29,921 INFO    SenderThread:29752 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-30 15:47:30,230 INFO    Thread-12 :29752 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:30,230 INFO    SenderThread:29752 [dir_watcher.py:finish():388] scan: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files
+2024-08-30 15:47:30,231 INFO    SenderThread:29752 [dir_watcher.py:finish():402] scan save: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log output.log
+2024-08-30 15:47:30,231 INFO    SenderThread:29752 [dir_watcher.py:finish():402] scan save: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/conda-environment.yaml conda-environment.yaml
+2024-08-30 15:47:30,231 INFO    SenderThread:29752 [dir_watcher.py:finish():402] scan save: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/config.yaml config.yaml
+2024-08-30 15:47:30,231 INFO    SenderThread:29752 [dir_watcher.py:finish():402] scan save: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-metadata.json wandb-metadata.json
+2024-08-30 15:47:30,231 INFO    SenderThread:29752 [dir_watcher.py:finish():402] scan save: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/requirements.txt requirements.txt
+2024-08-30 15:47:30,231 INFO    SenderThread:29752 [dir_watcher.py:finish():402] scan save: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json wandb-summary.json
+2024-08-30 15:47:30,232 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 10
+2024-08-30 15:47:30,232 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:30,232 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-30 15:47:30,236 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:30,236 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-08-30 15:47:30,236 INFO    SenderThread:29752 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-30 15:47:30,555 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-30 15:47:30,555 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: poll_exit
+2024-08-30 15:47:30,697 INFO    wandb-upload_0:29752 [upload_job.py:push():130] Uploaded file /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/output.log
+2024-08-30 15:47:30,801 INFO    wandb-upload_1:29752 [upload_job.py:push():130] Uploaded file /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/conda-environment.yaml
+2024-08-30 15:47:30,818 INFO    wandb-upload_2:29752 [upload_job.py:push():130] Uploaded file /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/config.yaml
+2024-08-30 15:47:30,825 INFO    wandb-upload_4:29752 [upload_job.py:push():130] Uploaded file /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/wandb-summary.json
+2024-08-30 15:47:30,833 INFO    wandb-upload_3:29752 [upload_job.py:push():130] Uploaded file /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/files/requirements.txt
+2024-08-30 15:47:31,034 INFO    Thread-11 (_thread_body):29752 [sender.py:transition_state():626] send defer: 11
+2024-08-30 15:47:31,034 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:31,034 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 11
+2024-08-30 15:47:31,035 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:31,035 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-08-30 15:47:31,035 INFO    SenderThread:29752 [file_pusher.py:join():175] waiting for file pusher
+2024-08-30 15:47:31,035 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 12
+2024-08-30 15:47:31,036 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:31,036 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 12
+2024-08-30 15:47:31,036 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:31,036 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-08-30 15:47:31,036 INFO    SenderThread:29752 [file_stream.py:finish():601] file stream finish called
+2024-08-30 15:47:31,556 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-30 15:47:31,621 INFO    SenderThread:29752 [file_stream.py:finish():605] file stream finish is done
+2024-08-30 15:47:31,621 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 13
+2024-08-30 15:47:31,621 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: poll_exit
+2024-08-30 15:47:31,621 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:31,622 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 13
+2024-08-30 15:47:31,622 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:31,622 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-08-30 15:47:31,622 INFO    SenderThread:29752 [sender.py:transition_state():626] send defer: 14
+2024-08-30 15:47:31,623 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: defer
+2024-08-30 15:47:31,623 INFO    HandlerThread:29752 [handler.py:handle_request_defer():184] handle defer: 14
+2024-08-30 15:47:31,623 DEBUG   SenderThread:29752 [sender.py:send():391] send: final
+2024-08-30 15:47:31,623 DEBUG   SenderThread:29752 [sender.py:send():391] send: footer
+2024-08-30 15:47:31,623 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: defer
+2024-08-30 15:47:31,623 INFO    SenderThread:29752 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-08-30 15:47:31,624 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-30 15:47:31,624 DEBUG   SenderThread:29752 [sender.py:send_request():418] send_request: poll_exit
+2024-08-30 15:47:31,625 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-30 15:47:31,625 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: get_summary
+2024-08-30 15:47:31,626 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: sampled_history
+2024-08-30 15:47:31,627 DEBUG   HandlerThread:29752 [handler.py:handle_request():158] handle_request: shutdown
+2024-08-30 15:47:31,627 INFO    HandlerThread:29752 [handler.py:finish():884] shutting down handler
+2024-08-30 15:47:32,624 INFO    WriterThread:29752 [datastore.py:close():296] close: /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154435-8u0kpnv8/run-8u0kpnv8.wandb
+2024-08-30 15:47:32,624 INFO    SenderThread:29752 [sender.py:finish():1631] shutting down sender
+2024-08-30 15:47:32,625 INFO    SenderThread:29752 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-30 15:47:32,625 INFO    SenderThread:29752 [file_pusher.py:join():175] waiting for file pusher

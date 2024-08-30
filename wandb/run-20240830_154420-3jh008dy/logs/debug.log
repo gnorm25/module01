@@ -1,0 +1,41 @@
+2024-08-30 15:44:20,228 INFO    Thread-18 (_run_job):23060 [wandb_setup.py:_flush():77] Current SDK version is 0.17.8
+2024-08-30 15:44:20,228 INFO    Thread-18 (_run_job):23060 [wandb_setup.py:_flush():77] Configure stats pid to 23060
+2024-08-30 15:44:20,228 INFO    Thread-18 (_run_job):23060 [wandb_setup.py:_flush():77] Loading settings from /home/sdf1ai810/.config/wandb/settings
+2024-08-30 15:44:20,228 INFO    Thread-18 (_run_job):23060 [wandb_setup.py:_flush():77] Loading settings from /home/sdf1ai810/gnorm42_ai/module01/wandb/settings
+2024-08-30 15:44:20,228 INFO    Thread-18 (_run_job):23060 [wandb_setup.py:_flush():77] Loading settings from environment variables: {'project': 'pneumonia-detection', 'entity': 'gnorm42-gjaischool', 'root_dir': '/home/sdf1ai810/gnorm42_ai/module01', 'run_id': '3jh008dy', 'sweep_param_path': '/home/sdf1ai810/gnorm42_ai/module01/wandb/sweep-yeyt97pt/config-3jh008dy.yaml', 'sweep_id': 'yeyt97pt'}
+2024-08-30 15:44:20,228 INFO    Thread-18 (_run_job):23060 [wandb_setup.py:_flush():77] Applying setup settings: {'_disable_service': False}
+2024-08-30 15:44:20,229 INFO    Thread-18 (_run_job):23060 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-08-30 15:44:20,229 INFO    Thread-18 (_run_job):23060 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-08-30 15:44:20,229 INFO    Thread-18 (_run_job):23060 [wandb_init.py:_log_setup():524] Logging user logs to /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154420-3jh008dy/logs/debug.log
+2024-08-30 15:44:20,229 INFO    Thread-18 (_run_job):23060 [wandb_init.py:_log_setup():525] Logging internal logs to /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_154420-3jh008dy/logs/debug-internal.log
+2024-08-30 15:44:20,229 INFO    Thread-18 (_run_job):23060 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd2c7dd3da0>
+2024-08-30 15:44:20,229 INFO    Thread-18 (_run_job):23060 [wandb_init.py:init():607] calling init triggers
+2024-08-30 15:44:20,229 INFO    Thread-18 (_run_job):23060 [wandb_init.py:init():614] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 20, 'learning_rate': 0.00631487276919742}
+config: {}
+2024-08-30 15:44:20,229 INFO    Thread-18 (_run_job):23060 [wandb_init.py:init():657] starting backend
+2024-08-30 15:44:20,229 INFO    Thread-18 (_run_job):23060 [wandb_init.py:init():661] setting up manager
+2024-08-30 15:44:20,231 INFO    Thread-18 (_run_job):23060 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-30 15:44:20,232 INFO    Thread-18 (_run_job):23060 [wandb_init.py:init():669] backend started and connected
+2024-08-30 15:44:20,237 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_config_callback():1392] config_cb None None {'batch_size': 64, 'epochs': 20, 'learning_rate': 0.00631487276919742}
+2024-08-30 15:44:20,239 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_label_probe_notebook():1344] probe notebook
+2024-08-30 15:44:20,239 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_label_probe_notebook():1354] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-08-30 15:44:20,239 INFO    Thread-18 (_run_job):23060 [wandb_init.py:init():767] updated telemetry
+2024-08-30 15:44:20,242 INFO    Thread-18 (_run_job):23060 [wandb_init.py:init():800] communicating run to backend with 90.0 second timeout
+2024-08-30 15:44:20,862 INFO    Thread-18 (_run_job):23060 [wandb_init.py:init():851] starting run threads in backend
+2024-08-30 15:44:22,771 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_console_start():2463] atexit reg
+2024-08-30 15:44:22,771 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_redirect():2309] redirect: wrap_raw
+2024-08-30 15:44:22,771 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_redirect():2374] Wrapping output streams.
+2024-08-30 15:44:22,771 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_redirect():2399] Redirects installed.
+2024-08-30 15:44:22,773 INFO    Thread-18 (_run_job):23060 [wandb_init.py:init():894] run started, returning control to user process
+2024-08-30 15:44:24,862 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_finish():2160] finishing run gnorm42-gjaischool/pneumonia-detection/3jh008dy
+2024-08-30 15:44:24,862 ERROR   Thread-18 (_run_job):23060 [jupyter.py:save_history():436] Run pip install nbformat to save notebook history
+2024-08-30 15:44:24,862 INFO    Thread-18 (_run_job):23060 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-08-30 15:44:24,862 INFO    Thread-18 (_run_job):23060 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2024-08-30 15:44:24,862 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_atexit_cleanup():2424] got exitcode: 1
+2024-08-30 15:44:24,863 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_restore():2406] restore
+2024-08-30 15:44:24,863 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_restore():2412] restore done
+2024-08-30 15:44:24,863 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_on_finish():2677] communicating current version
+2024-08-30 15:44:24,942 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_on_finish():2686] got version response 
+2024-08-30 15:44:30,054 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_footer_history_summary_info():4078] rendering history
+2024-08-30 15:44:30,054 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_footer_history_summary_info():4110] rendering summary
+2024-08-30 15:44:30,056 INFO    Thread-18 (_run_job):23060 [wandb_run.py:_footer_sync_info():4037] logging synced files

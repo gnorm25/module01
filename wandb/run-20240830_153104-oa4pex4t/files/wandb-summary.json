@@ -1,0 +1,1 @@
+{"Train Loss": 0.25351995644906095, "Train Accuracy": 88.9261744966443, "Train Recall": 0.889261744966443, "_timestamp": 1724999918.1061819, "_runtime": 453.98862290382385, "_step": 27, "Validation Loss": 0.17666824159889735, "Validation Accuracy": 96.16858237547893, "Validation Recall": 0.9616858237547893, "_wandb": {"runtime": 452}}
