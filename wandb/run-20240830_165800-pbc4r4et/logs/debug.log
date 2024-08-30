@@ -1,0 +1,77 @@
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_setup.py:_flush():77] Current SDK version is 0.17.8
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_setup.py:_flush():77] Configure stats pid to 8242
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_setup.py:_flush():77] Loading settings from /home/sdf1ai810/.config/wandb/settings
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_setup.py:_flush():77] Loading settings from /home/sdf1ai810/gnorm42_ai/module01/wandb/settings
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_setup.py:_flush():77] Loading settings from environment variables: {'project': 'pneumonia-detection', 'entity': 'gnorm42-gjaischool', 'root_dir': '/home/sdf1ai810/gnorm42_ai/module01', 'sweep_id': 'byutesis', 'run_id': 'pbc4r4et', 'sweep_param_path': '/home/sdf1ai810/gnorm42_ai/module01/wandb/sweep-byutesis/config-pbc4r4et.yaml'}
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_setup.py:_flush():77] Applying setup settings: {'_disable_service': False}
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_init.py:_log_setup():524] Logging user logs to /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_165800-pbc4r4et/logs/debug.log
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_init.py:_log_setup():525] Logging internal logs to /home/sdf1ai810/gnorm42_ai/module01/wandb/run-20240830_165800-pbc4r4et/logs/debug-internal.log
+2024-08-30 16:58:00,326 INFO    Thread-5 (_run_job):8242 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f59a92772c0>
+2024-08-30 16:58:00,327 INFO    Thread-5 (_run_job):8242 [wandb_init.py:init():607] calling init triggers
+2024-08-30 16:58:00,327 INFO    Thread-5 (_run_job):8242 [wandb_init.py:init():614] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 10, 'learning_rate': 0.00632281405845862, 'optimizer': 'sgd'}
+config: {}
+2024-08-30 16:58:00,327 INFO    Thread-5 (_run_job):8242 [wandb_init.py:init():657] starting backend
+2024-08-30 16:58:00,327 INFO    Thread-5 (_run_job):8242 [wandb_init.py:init():661] setting up manager
+2024-08-30 16:58:00,330 INFO    Thread-5 (_run_job):8242 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-30 16:58:00,331 INFO    Thread-5 (_run_job):8242 [wandb_init.py:init():669] backend started and connected
+2024-08-30 16:58:00,341 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_config_callback():1392] config_cb None None {'batch_size': 16, 'epochs': 10, 'learning_rate': 0.00632281405845862, 'optimizer': 'sgd'}
+2024-08-30 16:58:00,342 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_label_probe_notebook():1344] probe notebook
+2024-08-30 16:58:00,342 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_label_probe_notebook():1354] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-08-30 16:58:00,342 INFO    Thread-5 (_run_job):8242 [wandb_init.py:init():767] updated telemetry
+2024-08-30 16:58:00,371 INFO    Thread-5 (_run_job):8242 [wandb_init.py:init():800] communicating run to backend with 90.0 second timeout
+2024-08-30 16:58:05,017 INFO    Thread-5 (_run_job):8242 [wandb_init.py:init():851] starting run threads in backend
+2024-08-30 16:58:07,619 ERROR   Thread-5 (_run_job):8242 [wandb_init.py:init():1238] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1228, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 893, in init
+    run._on_start()
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2491, in _on_start
+    self._header(settings=self._settings, printer=self._printer)
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 3685, in _header
+    Run._header_wandb_version_info(settings=settings, printer=printer)
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 3720, in _header_wandb_version_info
+    printer.display(
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/wandb/sdk/lib/printer.py", line 68, in display
+    self._display(text, level=level, default_text=default_text)
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/wandb/sdk/lib/printer.py", line 248, in _display
+    self._display_fn_mapping(level)(text)
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/wandb/sdk/lib/ipython.py", line 81, in display_html
+    return display(HTML(html))
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/IPython/core/display_functions.py", line 305, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/IPython/core/display_functions.py", line 93, in publish_display_data
+    display_pub.publish(
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 481, in publish
+    ipython.display_pub._orig_publish(data, metadata=metadata, **kwargs)
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 103, in publish
+    self._flush_streams()
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 66, in _flush_streams
+    sys.stdout.flush()
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/ipykernel/iostream.py", line 604, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/home/sdf1ai810/miniconda3/envs/module01/lib/python3.12/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2024-08-30 16:58:08,029 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_finish():2160] finishing run gnorm42-gjaischool/pneumonia-detection/pbc4r4et
+2024-08-30 16:58:08,031 ERROR   Thread-5 (_run_job):8242 [jupyter.py:save_history():436] Run pip install nbformat to save notebook history
+2024-08-30 16:58:08,031 INFO    Thread-5 (_run_job):8242 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-08-30 16:58:08,031 INFO    Thread-5 (_run_job):8242 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2024-08-30 16:58:08,031 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_atexit_cleanup():2424] got exitcode: 1
+2024-08-30 16:58:08,032 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_restore():2406] restore
+2024-08-30 16:58:08,032 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_restore():2412] restore done
+2024-08-30 16:58:08,032 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_on_finish():2677] communicating current version
+2024-08-30 16:58:08,140 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_on_finish():2686] got version response 
+2024-08-30 16:58:11,698 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_footer_history_summary_info():4078] rendering history
+2024-08-30 16:58:11,698 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_footer_history_summary_info():4110] rendering summary
+2024-08-30 16:58:11,702 INFO    Thread-5 (_run_job):8242 [wandb_run.py:_footer_sync_info():4037] logging synced files

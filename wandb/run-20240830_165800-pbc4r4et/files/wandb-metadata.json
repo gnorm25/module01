@@ -1,0 +1,107 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.12.4",
+    "heartbeatAt": "2024-08-30T07:58:05.067913",
+    "startedAt": "2024-08-30T07:58:00.323294",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/gnorm25/module01.git",
+        "commit": "6beff40e6189b78260fd48446edc01078e3ce08b"
+    },
+    "email": "gnorm42@gmail.com",
+    "root": "/home/sdf1ai810/gnorm42_ai/module01",
+    "host": "DESKTOP-PG8I8O",
+    "username": "sdf1ai810",
+    "executable": "/home/sdf1ai810/miniconda3/envs/module01/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2591.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 250.98248672485352,
+            "used": 71.52691268920898
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 12.298511505126953
+    }
+}
